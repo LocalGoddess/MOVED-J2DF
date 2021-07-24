@@ -1,0 +1,27 @@
+public class Main {
+  public static void main(String args[]) {
+     Template me.hammer86gn.j2df.template = TemplateBuilder(new TestTemplate()).build()
+     System.out.println(me.hammer86gn.j2df.template.toString());
+  }
+}
+
+
+public class TestTemplate extends AbstractDFTemplate {
+
+  public TestTemplate() {
+    super("Name");
+  }
+
+  @EventHandler(cancelled = false)
+  public void onPlayerJoin(PlayerJoinEvent event) {
+    event.addCode(new PlayerAction.SendMessage("Welcome to the Plot");
+  }
+
+}
+
+
+Things to finish
+ -AbstractDFTemplate
+ -Events
+ -CodeBlocks (oh fuck lord save me)
+ -building

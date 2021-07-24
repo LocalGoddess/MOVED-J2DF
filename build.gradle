@@ -1,0 +1,28 @@
+plugins {
+    id 'java'
+    id 'com.github.johnrengelman.shadow' version '7.0.0'
+}
+
+group 'me.hammer86gn'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.7.0'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.7.0'
+
+    implementation 'com.google.code.gson:gson:2.8.7'
+}
+
+build {
+    dependsOn {
+        shadowJar
+    }
+}
+
+test {
+    useJUnitPlatform()
+}
