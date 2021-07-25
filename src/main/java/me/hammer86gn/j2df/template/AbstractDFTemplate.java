@@ -1,4 +1,4 @@
-package me.hammer86gn.d2df.template;
+package me.hammer86gn.j2df.template;
 
 /**
  * The base class for <i>Templates</i>

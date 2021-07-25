@@ -14,14 +14,7 @@ public class TestTemplate extends AbstractDFTemplate {
 
   @EventHandler(cancelled = false)
   public void onPlayerJoin(PlayerJoinEvent event) {
-    event.addCode(new PlayerAction())
+    event.defaultPlayer.sendMessage(new Text("Hello")).alignment(MODE.CENTER);
   }
 
 }
-
-
-Things to finish
- -AbstractDFTemplate
- -Events
- -CodeBlocks (oh frick lord save me)
- -building

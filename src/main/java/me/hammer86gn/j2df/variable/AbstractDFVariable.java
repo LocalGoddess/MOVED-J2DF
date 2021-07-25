@@ -1,4 +1,4 @@
-package me.hammer86gn.d2df.variable;
+package me.hammer86gn.j2df.variable;
 
 import com.google.gson.JsonObject;
 

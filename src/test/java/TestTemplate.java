@@ -1,6 +1,6 @@
-import me.hammer86gn.d2df.event.EventHelper;
-import me.hammer86gn.d2df.event.impl.PlayerJoinEvent;
-import me.hammer86gn.d2df.template.AbstractDFTemplate;
+import me.hammer86gn.j2df.event.EventHelper;
+import me.hammer86gn.j2df.event.impl.PlayerJoinEvent;
+import me.hammer86gn.j2df.template.AbstractDFTemplate;
 
 public class TestTemplate extends AbstractDFTemplate {
 

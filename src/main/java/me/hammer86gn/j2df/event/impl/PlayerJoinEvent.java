@@ -1,6 +1,6 @@
-package me.hammer86gn.d2df.event.impl;
+package me.hammer86gn.j2df.event.impl;
 
-import me.hammer86gn.d2df.event.AbstractEvent;
+import me.hammer86gn.j2df.event.AbstractEvent;
 
 public class PlayerJoinEvent extends AbstractEvent {
 

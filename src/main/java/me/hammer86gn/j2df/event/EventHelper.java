@@ -1,4 +1,4 @@
-package me.hammer86gn.d2df.event;
+package me.hammer86gn.j2df.event;
 
 import java.lang.annotation.Documented;
 import java.lang.annotation.ElementType;

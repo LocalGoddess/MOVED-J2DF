@@ -1,7 +1,7 @@
-package me.hammer86gn.d2df.variable.impl.simple;
+package me.hammer86gn.j2df.variable.impl.simple;
 
 import com.google.gson.JsonObject;
-import me.hammer86gn.d2df.variable.AbstractDFVariable;
+import me.hammer86gn.j2df.variable.AbstractDFVariable;
 
 public class Number extends AbstractDFVariable {
 
